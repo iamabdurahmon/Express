@@ -1,0 +1,23 @@
+.topHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: #fff;
+}
+
+.topInfo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.line {
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  margin: 0 15px;
+  border-left: 2px dashed #5c6c7b;
+  vertical-align: middle;
+}
