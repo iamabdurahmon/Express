@@ -1,0 +1,31 @@
+.Content{
+    width: 580px;
+    height: 410px;    
+    gap: 20px;
+}   
+
+.Wrapper{
+    margin-top: 50px;
+    padding: 0 80px;
+}
+
+.Sub{
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 9.5%;
+    text-transform: uppercase;
+    color: Blue ;
+}
+
+.Title{
+    height: 216px;
+    width: 580px;
+}
+
+.Heading{
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 48px;
+}
