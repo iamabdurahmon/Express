@@ -1,0 +1,132 @@
+.footer {
+  background-color: #090e23; /* To'q ko'k fon */
+  color: #ffffff;
+  padding: 80px 0 40px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footerTop {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 1fr 1.2fr;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.footerLinks h3,
+.recentProject h3,
+.subscribe h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
+
+.footerLinks ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerLinks ul li {
+  margin-bottom: 12px;
+}
+
+.footerLinks ul li a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footerLinks ul li a:hover {
+  color: #ec4621;
+}
+
+.projectBox {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background-color: #121d50;
+  border-radius: 4px;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.inputGroup input {
+  background-color: #ffffff;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+.inputGroup button {
+  background-color: #ec4621; /* To'q sariq/qizil rang */
+  color: #ffffff;
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.inputGroup button:hover {
+  background-color: #d13a1a;
+}
+
+.divider {
+  width: 100%;
+  border-top: 1px dashed rgba(255, 255, 255, 0.3); /* Uzuq-uzuq chiziq */
+  margin-bottom: 30px;
+}
+
+.footerBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* Responsivlik */
+@media (max-width: 992px) {
+  .footerTop {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .footerTop {
+    grid-template-columns: 1fr;
+  }
+  .footerBottom {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}

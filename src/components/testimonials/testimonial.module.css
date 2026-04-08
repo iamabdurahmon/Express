@@ -1,0 +1,139 @@
+.testimonialsSection {
+  background-color: #f3f5f9;
+  padding: 100px 0;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.sectionHeader {
+  margin-bottom: 40px;
+}
+
+.subtitle {
+  color: #0b2cdb;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #0e183a;
+  font-size: 42px;
+  font-weight: 800;
+  max-width: 400px;
+  line-height: 1.1;
+}
+
+.testimonialsGrid {
+  display: flex;
+  gap: 100px;
+  align-items: flex-start;
+}
+
+.leftColumn {
+  flex: 0 0 40%; /* Chap tomon kengligi */
+}
+
+.rightColumn {
+  flex: 1; /* O'ng tomon ko'proq joy egallaydi */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 25px;
+}
+
+.heroCard {
+  background-color: #0e183a;
+  border-radius: 10px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  overflow: visible; /* Quote tashqariga chiqishi uchun */
+}
+
+.heroImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.quoteIcon {
+  position: absolute;
+  top: 40px;
+  right: -35px;
+  background-color: #0b2cdb;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  font-weight: 900;
+  transform: rotate(180deg);
+  z-index: 2;
+}
+
+.testimonialCard {
+  background-color: #fff;
+  padding: 35px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.2s ease;
+}
+
+.testimonialCard.active {
+  background-color: #0e183a;
+}
+
+.starRating {
+  margin-bottom: 15px;
+}
+
+.star {
+  color: #0b2cdb;
+  font-size: 20px;
+  margin-right: 2px;
+}
+
+.testimonialText {
+  color: #555e78;
+  font-size: 15px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.testimonialCard.active .testimonialText {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.clientInfo {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.clientName {
+  color: #0e183a;
+}
+
+.clientRole {
+  color: #777;
+}
+
+.testimonialCard.active .clientName {
+  color: #fff;
+}
+
+.testimonialCard.active .clientRole {
+  color: rgba(255, 255, 255, 0.6);
+}

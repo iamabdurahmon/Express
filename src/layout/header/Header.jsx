@@ -10,7 +10,7 @@ const Header = () => {
           <p>+1 (333) 000-0000</p>
         </div>
         <div className={styles.headerBtn}>
-          <a href="/">Get Quote</a>
+          <a href="#contact">Get Quote</a>
         </div>
       </div>
 
@@ -20,21 +20,18 @@ const Header = () => {
         </a>
 
         <nav className={styles.navbar}>
-          <ul className={styles.navList}>
-            <li className={styles.navItem}>
-              <a href="/">Home</a>
+          <ul>
+            <li>
+              <a href="#home">Home</a>
             </li>
-            <li className={styles.navItem}>
-              <a href="/">About Us</a>
+            <li>
+              <a href="#about">About Us</a>
             </li>
-            <li className={styles.navItem}>
-              <a href="/">Services</a>
+            <li>
+              <a href="#services">Services</a>
             </li>
-            <li className={styles.navItem}>
-              <a href="/">Contact Us</a>
-            </li>
-            <li className={styles.navItem}>
-              <a href="/">Blog</a>
+            <li>
+              <a href="#contact">Contact Us</a>
             </li>
           </ul>
         </nav>

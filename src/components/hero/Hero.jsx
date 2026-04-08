@@ -7,7 +7,7 @@ const Hero = () => {
   const [activeTab, setActiveTab] = useState("tracking");
 
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} id="hero">
       <Header />
 
       <div className={styles.heroDesc}>

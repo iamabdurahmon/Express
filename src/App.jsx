@@ -3,6 +3,8 @@ import HowItWorks from "./components/HowItWorks/HowItWorks";
 import VideoBox from "./components/6 Video Box/VideoBox";
 import Services from "./components/Services/Services";
 import Hero from "./components/hero/Hero";
+import Testimonial from "./components/testimonials/Testimonial";
+import Footer from "./layout/footer/Footer";
 
 const App = () => {
   return (
@@ -12,6 +14,8 @@ const App = () => {
       <HowItWorks />
       <VideoBox />
       <Services />
+      <Testimonial />
+      <Footer />
     </div>
   );
 };
