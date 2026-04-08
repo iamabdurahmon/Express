@@ -49,22 +49,22 @@ const About = () => {
     </div>
     <div className={styles.Cards}>
 
-      <div class={styles.card}>
-        <div class={styles.number}>01</div>
-        <div class={styles.line}></div>
-        <div class={styles.text}>EXPERTISE AND EXPERIENCE</div>
+      <div className={styles.card}>
+        <div className={styles.number}>01</div>
+        <div className={styles.line}></div>
+        <div className={styles.text}>EXPERTISE AND EXPERIENCE</div>
       </div>
 
-      <div class={styles.card}>
-        <div class={styles.number}>02</div> 
-        <div class={styles.line}></div>
-        <div class={styles.text}>COMMITTED TO QUALITY</div>
+      <div className={styles.card}>
+        <div className={styles.number}>02</div> 
+        <div className={styles.line}></div>
+        <div className={styles.text}>COMMITTED TO QUALITY</div>
       </div>
 
-      <div class={styles.card}>
-        <div class={styles.number}>03</div>
-        <div class={styles.line}></div>
-        <div class={styles.text}>COMPREHENSIVE SERVICES</div>
+      <div className={styles.card}>
+        <div className={styles.number}>03</div>
+        <div className={styles.line}></div>
+        <div className={styles.text}>COMPREHENSIVE SERVICES</div>
       </div>
     </div>
   </div>;
