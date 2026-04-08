@@ -1,0 +1,65 @@
+.topHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 80px;
+  background-color: #fff;
+}
+
+.topInfo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+  color: #000;
+}
+
+.line {
+  display: inline-block;
+  width: 1px;
+  height: 15px;
+  margin: 0 15px;
+  border-left: 2px dashed #5c6c7b;
+  vertical-align: middle;
+}
+
+.headerBtn > a {
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  background-color: #ec4621;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.mainHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 80px;
+  background-color: #121d50;
+}
+
+.mainHeader > .logo {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 600;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 20px;
+}
+
+.navbar ul li a {
+  font-size: 16px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+  color: #ec4621;
+}
