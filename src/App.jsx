@@ -7,17 +7,13 @@ import Hero from "./components/hero/Hero";
 const App = () => {
   return (
     <div>
-<<<<<<< HEAD
-=======
+      <Hero />
       <About />
       <HowItWorks />
       <VideoBox />
       <Services />
->>>>>>> 6f36a3ed024684d8281d5658229772d18a973bff
-      <Hero />
-      <About />
     </div>
-  )
+  );
 };
 
 export default App;
