@@ -1,0 +1,115 @@
+.Wrapper {
+    padding: 0 80px;
+}
+
+.ImageDiv > img{
+    width: 506px;
+    height: 420px;
+    border-radius: 12px;
+    margin-top: 110px;
+}
+
+
+.Title {
+    width: 580px;
+    height: 216px;
+    margin-top: 110px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.SubHeading {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 9.5%;
+    text-transform: uppercase;
+    color: blue;
+}
+
+.Heading {
+    font-weight: 600;
+    font-size: 48px;
+    color: darkblue;
+}
+
+.Text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    margin-top: 50px;
+    color: grey;
+}
+
+.Line {
+    border-style: dashed;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.Context {
+    display: flex;
+}
+
+.Step {
+    width: 1099px;
+    height: 345px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    gap: 200px;
+}
+
+.Card {
+    width: 287px;
+    height: 345px;
+}
+
+.Label {
+    width: 66px;
+    height: 33px;
+    border-radius: 90px;
+    border: 2px;
+    background-color: #EDF0F3;
+    text-align: center;
+    margin-top: -50px;
+    margin-left: 25px;
+}
+
+.IconDiv {
+    width: 132px;
+    height: 132px;
+    border-radius: 8px;
+    background-color: #0E33CB;
+    display: flex;
+    text-align: center;
+}
+
+.VektorImg {
+    width: 60px;
+    height: 60px;
+    margin-left: -54px;
+    margin-top: 34px;
+}
+
+.Heading2 {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    margin-top: 35px;
+    margin-left: -50px;
+}
+
+.CardText {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    margin-top: 30px;
+    color: grey;
+    margin-left: -100px;
+}

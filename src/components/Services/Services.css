@@ -1,0 +1,103 @@
+/* Google Fonts ulashni unutmang: Inter yoki Roboto */
+.services-section {
+    width: 1440px;
+    padding: 80px 20px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .sub-title {
+    color: #2563eb;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .main-title {
+    color: #0f172a;
+    font-size: 36px;
+    font-weight: 800;
+    margin: 20px 0 50px;
+    line-height: 1.2;
+  }
+  
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+  }
+  
+  .service-card {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    text-align: left;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Active holat (to'q ko'k rang) */
+  .service-card.active {
+    background-color: #111827;
+    color: #ffffff;
+  }
+  
+  .icon-box {
+    width: 50px;
+    height: 50px;
+    background-color: #2563eb;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    color: white;
+  }
+  
+  .icon-box svg {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .service-card h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+  }
+  
+  .service-card.active h3 {
+    color: #ffffff;
+  }
+  
+  .service-card p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #64748b;
+  }
+  
+  .service-card.active p {
+    color: #94a3b8;
+  }
+  
+  /* Responsive moslashuvchanlik */
+  @media (max-width: 768px) {
+    .main-title {
+      font-size: 28px;
+    }
+    
+    .services-grid {
+      grid-template-columns: 1fr;
+    }
+  }
