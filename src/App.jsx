@@ -4,10 +4,10 @@ import Hero from "./components/hero/Hero";
 const App = () => {
   return (
     <div>
-      <About />
       <Hero />
+      <About />
     </div>
-  );
+  );git pull origin main
 };
 
 export default App;
